@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <script src="./addons/game/game.js" type="module" defer></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>SnakeGame</title>
+  </head>
+  <body>
+    <div class="transition transition--active slide-r-l"></div>
+
+    <header class="header">
+      <div class="logo">
+        <span class="logo__text">SnakeGame</span>
+      </div>
+    </header>
+
+    <div class="container">
+      <main class="board" id="gameBoard"></main>
+      <span class="score">Wynik: <span id="score">0</span></span>
+    </div>
+
+    <!-- <section class="controler">
+      <button class="arrow arrow--up" id="up">
+        <i class="fas fa-arrow-circle-up"></i>
+      </button>
+
+      <button class="arrow arrow--right" id="right">
+        <i class="fas fa-arrow-circle-right"></i>
+      </button>
+
+      <button class="arrow arrow--down" id="down">
+        <i class="fas fa-arrow-circle-down"></i>
+      </button>
+
+      <button class="arrow arrow--left" id="left">
+        <i class="fas fa-arrow-circle-left"></i>
+      </button>
+    </section> -->
+
+    <footer class="footer">
+      <button class="btn btn--outer btn--about show-popup" data-target="#about_page">
+        <i class="fas fa-info-circle btn btn--info btn--icon"></i> O stronie
+      </button>
+      <p class="footer__text">2021 &copy Mateusz Narowski</p>
+    </footer>
+
+    <div class="popup" id="about_page">
+      <div class="popup__overlay show-popup" data-target="#about_page"></div>
+      <div class="popup__inner">
+        <p class="popup__title">SnakeGame</p>
+        <p class="popup__text"><i class="fas fa-info popup__icon"></i> - Gra Snake.</p>
+        <p class="popup__text">
+          <i class="fab fa-github popup__icon"></i> - Gra została umieszczona również na repozytorium GitHub'a.<a
+            href="https://github.com/Malelus/RyszardSzurkowski"
+            class="popup__link external"
+            target="_blank"
+            title="github.com/Malelus/RyszardSzurkowski"
+            ><i class="fas fa-external-link-alt"></i
+          ></a>
+        </p>
+        <p class="popup__subtitle">Autor: Mateusz Narowski</p>
+        <p class="popup__text"><i class="far fa-calendar-alt popup__icon"></i> - 24.02.2021r.</p>
+        <span>
+          <button class="btn btn--inner btn--about show-popup" data-target="#about_page">
+            <i class="fas fa-times btn btn--close btn--icon"></i> Zamknij
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <script src="./addons/main.js"></script>
+  </body>
+</html>

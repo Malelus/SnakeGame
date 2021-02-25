@@ -1,0 +1,159 @@
+// //===============================================//
+// //===// Responsive layout - desktop section //===//
+// //===============================================//
+
+// @include desktop {
+//   //====================//
+//   //===// Reusable //===//
+//   //====================//
+
+//   //===// Container //===//
+
+//   .container {
+//     grid-area: container;
+//   }
+
+//   //===// Scroll up //===//
+
+//   .scrollUp {
+//     left: auto;
+//     right: 15px;
+//   }
+
+//   //==================//
+//   //===// Header //===//
+//   //==================//
+
+//   //===// Header > Logo//===//
+
+//   .logo {
+//     &__text {
+//       font-size: 2.5rem;
+//     }
+
+//     &__icon {
+//       font-size: 2.2rem;
+//     }
+//   }
+
+//   //================//
+//   //===// Main //===//
+//   //================//
+
+//   //===// Main > Background Bluring //===//
+
+//   .landing-bg {
+//     width: 22.5%;
+//   }
+
+//   .form-bg {
+//     &--default {
+//       width: 22.5%;
+//     }
+
+//     &--mobile {
+//       width: 77.5%;
+//     }
+//   }
+
+//   //===// Main > Menu //===//
+
+//   .menu {
+//     flex: 22.5%;
+//   }
+
+//   .nav {
+//     &__link {
+//       font-size: 1.7rem;
+//     }
+//   }
+
+//   //===// Main > Content //===//
+
+//   .content {
+//     flex: 77.5%;
+//     margin: 0 0 6.5rem 0;
+
+//     &__container {
+//       display: grid;
+//       grid-template-areas: 'container photo';
+//       margin-top: 6rem;
+//     }
+
+//     &__photo {
+//       grid-area: photo;
+//       position: relative;
+//       top: 0;
+//       left: auto;
+//       right: 0;
+//       transform: none;
+//       opacity: 1;
+//     }
+
+//     &__title {
+//       font-size: 2.1rem;
+
+//       &--biography {
+//         margin-top: 2.5rem;
+//       }
+
+//       &--successes {
+//         margin-top: 5rem;
+//       }
+//     }
+
+//     &__text {
+//       font-size: 1.25rem;
+
+//       &--quote {
+//         top: 22.5%;
+//         width: 40%;
+//         font-size: 1.4rem;
+//         transform: translate(-80%, -22.5%);
+//       }
+//     }
+
+//     & .form {
+//       margin-top: 5rem;
+
+//       &__title {
+//         position: absolute;
+//         max-width: 10ch;
+//         left: 0.25rem;
+//         top: 0.45rem;
+//         text-align: left;
+//         font-size: 4vw;
+//         line-height: 0.9;
+//         margin: 0;
+//       }
+
+//       &__label {
+//         font-size: 1.3rem;
+//       }
+//     }
+//   }
+
+//   //==================//
+//   //===// Footer //===//
+//   //==================//
+
+//   //===// Footer > Content //===//
+
+//   .footer {
+//     &__text {
+//       font-size: 1.3rem;
+//     }
+//   }
+
+//   //==================//
+//   //===// Assets //===//
+//   //==================//
+
+//   //===// Buttons //===//
+
+//   .btn {
+//     &--scrollUp {
+//       font-size: 3rem;
+//     }
+//   }
+// }

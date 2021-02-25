@@ -1,0 +1,23 @@
+{
+  "name": "SnakeGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malelus/SnakeGame.git"
+  },
+  "keywords": [],
+  "author": "Mateusz Narowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malelus/SnakeGame/issues"
+  },
+  "homepage": "https://github.com/Malelus/SnakeGame#readme",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  }
+}
